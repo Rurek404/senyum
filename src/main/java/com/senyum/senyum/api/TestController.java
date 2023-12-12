@@ -20,6 +20,14 @@ public class TestController {
         int addition = jasiekClass.addition(5, 10);
         System.out.println(addition);
 
+        jasiekClass.showAllNumbersInRange(5, 25);
+
+        int sum_from_0 = jasiekClass.sumFrom0(3);
+        System.out.println(sum_from_0);
+
+        int a = 8;
+        System.out.print(a + " binarnie to ");
+        jasiekClass.toBin(a);
 
         return ResponseEntity.ok().build();
     }
